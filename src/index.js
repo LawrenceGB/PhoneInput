@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Dimensions, StyleSheet, Text, View, Modal, Pressable, Alert, StatusBar, Platform } from 'react-native';
 import { Input, ListItem } from 'react-native-elements';
 import { ScrollView } from 'react-native-gesture-handler';
-import { countries } from '../layouts/country-code';
+import { countries } from './country-code';
 import { Icon } from 'react-native-elements'
 
 export default function PhoneInput(props) {
