@@ -13,17 +13,15 @@ export default function PhoneInput(props) {
 
 
     const getPhoneNumber = (event) => {
+        setPhone(event.nativeEvent.text);
         var regExp = /^0[0-9].*$/;
         var mobile = '';
-        setPhone(event.nativeEvent.text);
-        if (regExp.test(phone)) {
-            var number = phone.substring(1);
+        if (regExp.test(event.nativeEvent.text)) {
+            var number = (event.nativeEvent.text).substring(1);
             mobile = countryCode + number;
-            console.log(mobile);
             props.phoneNumber(mobile);
         } else {
-            mobile = countryCode + phone;
-            console.log(mobile);
+            mobile = countryCode + event.nativeEvent.text;
             props.phoneNumber(mobile);
         }
 
