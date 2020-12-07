@@ -5,13 +5,13 @@ phone-number-with-country-code is a react native component for phone number with
 ### Installation
 
 ```sh
-$ npm i phone-number-with-country-code@1.0.0
+$ npm i phone-number-with-country-code
 ```
 
 ### Usage
 
 ```sh
-import { PhoneInput } from 'phone-number-with-country-code';
+import PhoneInput from 'phone-number-with-country-code';
 ```
 
 ### Example
