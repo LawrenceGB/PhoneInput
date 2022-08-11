@@ -7,7 +7,7 @@ import { Icon } from 'react-native-elements'
 
 export default function PhoneInput(props) {
     const [modalVisible, setModalVisible] = useState(false);
-    const [countryCode, setCountryCode] = useState('+971');
+    const [countryCode, setCountryCode] = useState('+44');
     const [phone, setPhone] = useState('');
     const [data, setData] = useState(countries);
 

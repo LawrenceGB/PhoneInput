@@ -1,27 +1,17 @@
 {
   "name": "phone-number-with-country-code",
-  "version": "1.0.4",
+  "version": "2.0.4",
   "description": "react native component to create phone number input with country code.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ali-Mardini/phone-number-with-country-code.git"
-  },
-  "keywords": [
-    "react-native",
-    "phone-number-input"
-  ],
-  "author": "Ali Mardini",
+
+  "author": "Lawrence",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ali-Mardini/phone-number-with-country-code/issues"
-  },
-  "homepage": "https://github.com/Ali-Mardini/phone-number-with-country-code#readme",
+
   "dependencies": {
-    "react-native-elements": "^3.0.0-alpha.1",
-    "react-native-gesture-handler": "^1.9.0"
+    "react-native-elements": "^3.4.2",
+    "react-native-gesture-handler": "^2.5.0"
   }
 }
